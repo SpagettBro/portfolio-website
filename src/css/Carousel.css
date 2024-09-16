@@ -1,0 +1,42 @@
+ion-icon {
+    font-size: 15px;
+    color: white;
+  }
+
+.arrows{
+    width:20px;
+}
+
+#carousel{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    margin: 180px auto 150px auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#tvImage{
+    width: 450px;
+    height: auto;
+    margin: 0 60px 0 60px;
+    background-color: none;
+    display: block;
+}
+
+#whiteBackground{
+    position:absolute;
+    z-index: -2;
+    height: 350px;
+    width: 310px;
+    background-color: white;
+}
+
+#projectXImage{
+    height: auto;
+    width: 200px;
+    position: absolute;
+    z-index: -1;
+    margin-top: -90px;
+}
