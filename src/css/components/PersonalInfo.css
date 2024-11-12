@@ -1,0 +1,87 @@
+@font-face {
+    font-family: VCR;
+    src: url(../../assets/fonts/VCR_OSD_MONO_1.001.ttf);
+  }
+
+#personalInfo{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    position: relative;
+}
+
+#about{
+    margin-left: 14vw;
+}
+
+#skills{
+    width: 23vw;
+    margin-right: 14vw;
+}
+
+h2{
+    width: fit-content;
+    font-family: VCR;
+    font-weight: lighter;
+    color: #FD4040;
+    margin: 0;
+}
+
+#firstName{
+    text-shadow: 0 0 20px rgba( 240, 49, 0, 0.6);
+}
+
+#lastName{
+    margin-left: 35px;
+    text-shadow: 0 0 20px rgba( 240, 49, 0, 0.6);
+}
+
+#skillsHeading{
+    position: absolute;
+    margin-left: -20px;
+    padding: 15px 20px 15px 20px;
+    border: solid #FD4040 3px;
+    background-color: rgba( 240, 49, 0, 0.2);
+    box-shadow: 0 0 30px rgba( 240, 49, 0, 0.5);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+#profilePic{
+    width:400px;
+    margin-left: 12vw;
+}
+
+p{
+    background-color: #131313;
+    padding: 60px;
+    color: white;
+    font-size: 0.9em;
+    box-shadow: 0 0 25px #131313;
+}
+
+#skillsText{
+    margin-top: 20px;
+    margin-bottom: 0;
+    z-index: -1;
+}
+
+#summary{
+    width: 41vw;
+}
+
+#iconRow{
+    display: flex;
+    background-color: #131313;
+    margin: 0;
+    padding: 60px;
+    justify-content: start;
+    gap: 20px;
+    box-shadow: 0 0 25px #131313;
+}
+
+.icons{
+    width: 40px;
+    filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(215deg) brightness(106%) contrast(100%);
+}

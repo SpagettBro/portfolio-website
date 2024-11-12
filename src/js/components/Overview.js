@@ -1,4 +1,4 @@
-import '../../css/Overview.css';
+import '../../css/components/Overview.css';
 import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
 import chanceImage from '../../assets/images/ChancebulonF.png'
 import alienImage from '../../assets/images/MetroidVector.png'
@@ -9,7 +9,7 @@ const Overview = () => {
             <div id='projectOverview'>
                 <h2 className='projectHeading' id='projectHeadingTop'>CLIENT PROJECT</h2>
                     <div id="projectView">
-                        <img id='projectImage' src={astronautImage} alt="Project image depicting an astronaut." />
+                        <img id='projectImage' src={astronautImage} alt="An astronaut." />
                         <p id='projectText'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -20,9 +20,9 @@ const Overview = () => {
             </div>
 
             <div id='projectList'>
-                <img id='project1' className='listImage' src={astronautImage} alt="Image of an astronaut." />
-                <img id='project2' className='listImage' src={chanceImage} alt="Image of a dice shaped creature." />
-                <img id='project3' className='listImage' src={alienImage} alt="Image of an alien." />
+                <img id='project1' className='listImage' src={astronautImage} alt="An astronaut." />
+                <img id='project2' className='listImage' src={chanceImage} alt="A dice shaped creature." />
+                <img id='project3' className='listImage' src={alienImage} alt="An alien." />
             </div>
         </div>
     )

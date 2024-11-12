@@ -1,4 +1,4 @@
-import '../../css/InfoCards.css';
+import '../../css/components/InfoCards.css';
 import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
 import alienImage from '../../assets/images/MetroidVector.png'
 

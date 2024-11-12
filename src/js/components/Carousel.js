@@ -1,4 +1,4 @@
-import '../../css/Carousel.css';
+import '../../css/components/Carousel.css';
 import tvImage from '../../assets/images/CSMTVtemplate.png'
 import leftArrow from '../../assets/images/LeftArrow.png'
 import rightArrow from '../../assets/images/RightArrow.png'

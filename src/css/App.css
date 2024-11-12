@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Geist Mono;
+  src: url(../assets/fonts/GeistMono-Regular.otf);
+}
+
 body{
   background-image: url("../assets/images/GrainyBackground.png");
   background-position: center;
@@ -6,3 +11,10 @@ body{
   background-attachment: fixed;
 }
 
+.content{
+  margin-top: 15vh;
+}
+
+p{
+  font-family: Geist Mono;
+}

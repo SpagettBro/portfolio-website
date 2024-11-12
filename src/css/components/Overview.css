@@ -1,23 +1,24 @@
 @font-face {
     font-family: VCR;
-    src: url(../assets/fonts/VCR_OSD_MONO_1.001.ttf);
+    src: url(../../assets/fonts/VCR_OSD_MONO_1.001.ttf);
   }
 
 #menu{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 50px;
 }
 
 #projectOverview{
     display: flex;
-    width: 650px;
-    height: 500px;
-    background-color: #0D0D0D;
-    margin: 160px 0 0 0;
+    width: 44vw;
+    height: 60vh;
+    margin-left: 14vw;
+    background-color: #131313;
     justify-content: center;
+    align-items: end;
     position: relative;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px #131313;
 }
 
 .projectHeading{
@@ -29,6 +30,7 @@
     padding: 15px 20px 15px 20px;
     border: solid #FF8B40 3px;
     background-color: rgba( 255, 139, 64, 0.2);
+    box-shadow: 0 0 30px rgba( 255, 139, 64, 0.3);
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
 }
@@ -48,38 +50,35 @@
 }
 
 #projectImage{
-    width: 175px;
+    width: 12vw;
     height: auto;
     display: block;
-    margin: 60px auto 60px auto;
+    margin: auto auto auto auto;
 }
 
 #projectText{
-    font-family: "transat-text", sans-serif;
-    font-weight: 500;
-    font-style: normal;
     color: white;
-    padding-left: 50px;
-    padding-right: 50px;
+    background-color: #131313;
+    margin: 0;
 }
 
 #projectList{
     display: grid;
-    height: 500px;
-    width:325px;
-    grid-template-rows: 158px 158px 158px;
-    grid-template-columns: 162px 162px;
-    margin-top: 160px;
-    background-color: #0D0D0D;
+    height: 60vh;
+    width:21vw;
+    margin-right: 14vw;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #131313;
     position: relative;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px #131313;
     justify-items: center;
     align-items: center;
     gap: 0;
 }
 
 .listImage{
-    height: 110px;
+    height: 14vh;
 }
 
 #project1{
