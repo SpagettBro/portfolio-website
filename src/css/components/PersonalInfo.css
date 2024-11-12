@@ -49,8 +49,13 @@ p{
 /*--- Skills & Experience (Right Container)---*/
 
 #skills{
+    display: flex;
+    flex-direction: column;
     grid-row: 1/7;
     grid-column: 10/13; 
+    background-color: #131313;
+    box-shadow: 0 0 25px #131313;
+    justify-content: space-between;
 }
 
 h2{
@@ -63,6 +68,7 @@ h2{
 
 #skillsHeading{
     position: absolute;
+    margin-top: -20px;
     margin-left: -20px;
     padding: 15px 20px 15px 20px;
     border: solid #FD4040 3px;
@@ -70,25 +76,24 @@ h2{
     box-shadow: 0 0 30px rgba( 240, 49, 0, 0.5);
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    z-index: 1;
 }
 
 #skillsText{
+    padding-bottom: 0;
     margin-top: 20px;
     margin-bottom: 0;
-    z-index: -1;
 }
 
 #iconRow{
     display: flex;
-    background-color: #131313;
     margin: 0;
-    padding: 60px;
+    padding: 60px 60px 60px 60px;
     justify-content: start;
     gap: 20px;
-    box-shadow: 0 0 25px #131313;
 }
 
 .icons{
-    width: 40px;
+    width: 35px;
     filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(215deg) brightness(106%) contrast(100%);
 }
