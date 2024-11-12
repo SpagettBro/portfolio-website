@@ -4,28 +4,20 @@
   }
 
 #personalInfo{
-    display: flex;
+    display: grid;
     width: 100%;
-    height: fit-content;
-    justify-content: space-between;
+    height: 85vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
     position: relative;
 }
 
+/*--- About Me (Left Container)---*/
+
 #about{
-    margin-left: 14vw;
-}
-
-#skills{
-    width: 23vw;
-    margin-right: 14vw;
-}
-
-h2{
-    width: fit-content;
-    font-family: VCR;
-    font-weight: lighter;
-    color: #FD4040;
-    margin: 0;
+    grid-row: 1/7;
+    grid-column: 3/10;
 }
 
 #firstName{
@@ -35,17 +27,6 @@ h2{
 #lastName{
     margin-left: 35px;
     text-shadow: 0 0 20px rgba( 240, 49, 0, 0.6);
-}
-
-#skillsHeading{
-    position: absolute;
-    margin-left: -20px;
-    padding: 15px 20px 15px 20px;
-    border: solid #FD4040 3px;
-    background-color: rgba( 240, 49, 0, 0.2);
-    box-shadow: 0 0 30px rgba( 240, 49, 0, 0.5);
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
 }
 
 #profilePic{
@@ -61,14 +42,40 @@ p{
     box-shadow: 0 0 25px #131313;
 }
 
+#summary{
+    width: 41vw;
+}
+
+/*--- Skills & Experience (Right Container)---*/
+
+#skills{
+    grid-row: 1/7;
+    grid-column: 10/13; 
+}
+
+h2{
+    width: fit-content;
+    font-family: VCR;
+    font-weight: lighter;
+    color: #FD4040;
+    margin: 0;
+}
+
+#skillsHeading{
+    position: absolute;
+    margin-left: -20px;
+    padding: 15px 20px 15px 20px;
+    border: solid #FD4040 3px;
+    background-color: rgba( 240, 49, 0, 0.25);
+    box-shadow: 0 0 30px rgba( 240, 49, 0, 0.5);
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
 #skillsText{
     margin-top: 20px;
     margin-bottom: 0;
     z-index: -1;
-}
-
-#summary{
-    width: 41vw;
 }
 
 #iconRow{
