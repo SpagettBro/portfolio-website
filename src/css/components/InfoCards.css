@@ -68,7 +68,7 @@
     background-color: rgba( 255, 221, 64, 0.2);
     border: solid #FFDD40 3px;
     margin: 20px 0 0 30px;
-    box-shadow: 0 0 10px #FFDD40;
+    box-shadow: 0 0 30px rgba( 255, 221, 64, 0.3);
 }
 
 #purpleRectangle{
@@ -79,7 +79,7 @@
     background-color: rgba( 172, 64, 255, 0.2);
     border: solid #AB40FE 3px;
     margin: 130px 0 0 0;
-    box-shadow: 0 0 10px #AB40FE;
+    box-shadow: 0 0 30px rgba( 172, 64, 255, 0.3);
 }
 
 #blueRectangle{
@@ -90,7 +90,7 @@
     background-color: rgba( 64, 255, 194, 0.2);
     border: solid #40FFC2 3px;
     margin: 20px 0 0 200px;
-    box-shadow: 0 0 10px #40FFC2;
+    box-shadow: 0 0 30px rgba( 64, 255, 194, 0.3);
 }
 
 #orangeRectangle{
@@ -101,7 +101,7 @@
     background-color: rgba( 255, 139, 64, 0.2);
     border: solid #FF6740 3px;
     margin: 260px 0 0 -25px;
-    box-shadow: 0 0 10px #FF6740;
+    box-shadow: 0 0 30px rgba( 255, 139, 64, 0.3);
 }
 
 .infoTitle{
@@ -111,22 +111,21 @@
     margin-top:0;
     margin-left: 45px;
     font-family: VCR;
-    font-size: 1.8em;
-    font-weight: 200;
-    background-color: rgba( 255, 221, 64, 0.2);
+    font-weight: lighter;
+    font-size: 1.4em;
 }
 
 #titleYellow{
     color: #FFDD40;
     border: solid #FFDD40 2px;
-    box-shadow: 0 0 10px #FFDD40;
+    box-shadow: 0 0 30px rgba( 255, 221, 64, 0.3);
     background-color: rgba( 255, 221, 64, 0.2);
 }
 
 #titleBlue{
     color: #40FFC2;
     border: solid #40FFC2 2px;
-    box-shadow: 0 0 10px #40FFC2;
+    box-shadow: 0 0 30px rgba( 64, 255, 194, 0.3);
     background-color: rgba( 64, 255, 194, 0.2);
 }
 

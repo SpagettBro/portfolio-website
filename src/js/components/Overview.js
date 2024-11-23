@@ -9,7 +9,7 @@ const Overview = () => {
             <div id='projectOverview'>
                 <h2 className='projectHeading' id='projectHeadingTop'>CLIENT PROJECT</h2>
                     <div id="projectView">
-                        <img id='projectImage' src={astronautImage} alt="An astronaut." />
+                        <img id='overviewImage' src={astronautImage} alt="An astronaut." />
                         <p id='projectText'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

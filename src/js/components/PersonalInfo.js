@@ -25,7 +25,7 @@ const PersonalInfo = () => {
                 </div>
             </div>
             <div id='skills'>
-                <h2 id='skillsHeading'>Eigenschappen</h2>
+                <h2 id='skillsHeading'>VAARDIGHEDEN</h2>
 
                 <p id='skillsText'>    
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
