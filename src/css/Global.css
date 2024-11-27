@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Geist Mono;
+    src: url(../assets/fonts/GeistMono-Regular.otf);
+  }
+  
+  body{
+    background-image: url("../assets/images/GrainyBackground.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  
+  p{
+    font-family: Geist Mono;
+  }
+  
+
+.content{
+    display: grid;
+    width: 100vw;
+    height: 85vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 15vh;
+}

@@ -1,15 +1,13 @@
-import '../css/Upendo.css'
+import '../css/Global.css'
 import ProjectImage from './components/ProjectImage';
 import ProjectSidebar from './components/ProjectSidebar';
 
 function Upendo() {
   return ( 
-    <div className="App">
-      <div id='upendoContent'>
+      <div className='content'>
         <ProjectImage />
         <ProjectSidebar />
       </div>
-    </div>
   );
 }
 

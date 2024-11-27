@@ -1,12 +1,13 @@
-import Overview from './components/Overview';
+import '../css/Global.css';
+import OverviewInfo from './components/OverviewInfo';
+import OverviewList from './components/OverviewList';
 
 function Projects() {
   return ( 
-    <div className="App">
       <div className='content'>
-        <Overview />
+        <OverviewInfo />
+        <OverviewList />
       </div>
-    </div>
   );
 }
 

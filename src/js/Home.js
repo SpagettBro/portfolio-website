@@ -4,12 +4,10 @@ import InfoCards from './components/InfoCards';
 
 function Home() {
   return ( 
-    <div className="App">
-      <div className='content'>
+      <div id='content'>
         <Carousel />
         <InfoCards />
       </div>
-    </div>
   );
 }
 

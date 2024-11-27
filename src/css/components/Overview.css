@@ -4,12 +4,7 @@
   }
 
 #menu{
-    display: grid;
-    width: 100vw;
-    height: 85vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 50px;
+    
 }
 
 /*--- Project Overview (Left Container)---*/

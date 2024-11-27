@@ -3,9 +3,3 @@
     flex-direction: column;
     justify-content: center;
 }
-
-#upArrow{
-    display: block;
-    margin: auto auto  150px auto;
-    width: 25px;
-}

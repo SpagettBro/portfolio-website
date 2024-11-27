@@ -1,12 +1,13 @@
-import PersonalInfo from './components/PersonalInfo';
+import '../css/Global.css';
+import AboutInfo from './components/AboutInfo';
+import AboutSkills from './components/AboutSkills';
 
 function About() {
   return ( 
-    <div className="App">
       <div className='content'>
-        <PersonalInfo />
+        <AboutInfo />
+        <AboutSkills />
       </div>
-    </div>
   );
 }
 
