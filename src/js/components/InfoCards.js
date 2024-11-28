@@ -17,7 +17,8 @@ const InfoCards = () => {
 
                 <div className='infoTextContainer'>
                     <h2 className='infoTitle' id='titleYellow'>WELCOME</h2>
-                    <p className='infoText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p className='infoText'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
@@ -29,7 +30,8 @@ const InfoCards = () => {
             <div className ='infoSection'>
                 <div className='infoTextContainer'>
                     <h2 className='infoTitle' id='titleBlue'>WELCOME</h2>
-                    <p className='infoText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <p className='infoText'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
