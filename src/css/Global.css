@@ -2,6 +2,11 @@
     font-family: Geist Mono;
     src: url(../assets/fonts/GeistMono-Regular.otf);
   }
+
+@font-face {
+  font-family: VCR;
+  src: url(../assets/fonts/VCR_OSD_MONO_1.001.ttf);
+}
   
   body{
     background-image: url("../assets/images/GrainyBackground.png");
@@ -20,8 +25,8 @@
     display: grid;
     width: 100vw;
     height: 85vh;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(14, 1fr);
     gap: 50px;
     margin-top: 15vh;
 }

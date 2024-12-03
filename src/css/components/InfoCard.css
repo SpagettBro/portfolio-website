@@ -1,0 +1,56 @@
+.infoTextContainer{
+    height: auto;
+    width: auto;
+    margin: 35px 0 0 0;
+}
+
+.infoTitle{
+    position: absolute;
+    width:fit-content;
+    padding: 7px 30px 7px 30px;
+    margin-top:0;
+    margin-left: 45px;
+    font-family: VCR;
+    font-weight: lighter;
+    font-size: 1.4em;
+}
+
+.infoText{
+    font-family: "transat-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 500px;
+    height: auto;
+    color: white;
+    background-color: #131313;
+    padding: 60px;
+    padding-top:  70px;
+    margin-top:25px;
+    box-shadow: 0 0 7px #0D0D0D;
+}
+
+/*--- Classes for dynamic funtionality ---*/
+
+.right{
+    grid-row: 1/7;
+    grid-column: 10/13; 
+}
+
+.left{
+    grid-row: 1/7;
+    grid-column: 10/13; 
+}
+
+.yellow{
+    color: #FFDD40;
+    border: solid #FFDD40 2px;
+    box-shadow: 0 0 30px rgba( 255, 221, 64, 0.3);
+    background-color: rgba( 255, 221, 64, 0.2);
+}
+
+.blue{
+    color: #40FFC2;
+    border: solid #40FFC2 2px;
+    box-shadow: 0 0 30px rgba( 64, 255, 194, 0.3);
+    background-color: rgba( 64, 255, 194, 0.2);
+}
