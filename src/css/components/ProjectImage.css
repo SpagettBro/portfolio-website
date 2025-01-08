@@ -1,10 +1,14 @@
 #projectImage{
+    display: flex;
+    align-items: center;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     max-height: 80vh;
     grid-row: 1/7;
     grid-column: 3/10;
 }
+
+
 
 #upendoImage1{
     width:100%;

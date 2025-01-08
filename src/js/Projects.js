@@ -21,14 +21,14 @@ function Projects() {
       heading: "CLIENT PROJECT: CHANCEBULON",
       image: chanceImage,
       text: "Dive into the world of Chancebulon, a dice-shaped creature. Lorem ipsum dolor sit amet...",
-      link: "/upendo",
+      link: "/aim-today",
     },
     {
       id: 3,
       heading: "CLIENT PROJECT: METROID ALIEN",
       image: alienImage,
       text: "Discover the mysteries of the alien world. Lorem ipsum dolor sit amet...",
-      link: "/upendo",
+      link: "/personalproject",
     },
   ];
 
