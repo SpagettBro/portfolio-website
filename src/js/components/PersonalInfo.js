@@ -27,7 +27,7 @@ const PersonalInfo = () => {
                     <img className='icons' src={instagramIcon} alt="instagram icon" />
                 </div>
             </div>
-        </div>
+        </div> 
     )
 }
 export default PersonalInfo;

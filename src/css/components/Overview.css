@@ -7,11 +7,13 @@
 
 #projectOverview{
     display: flex;
+    flex-direction: column;
+    height: 100%;
     grid-row: 1/7;
     grid-column: 3/10;
     background-color: #131313;
     justify-content: center;
-    align-items: end;
+    align-items:start;
     position: relative;
     box-shadow: 0 0 15px #131313;
 }
@@ -54,16 +56,29 @@
 }
 
 #overviewImage{
-    width: 12vw;
-    height: auto;
+    height: 70%;
+    width: auto;
     display: block;
     margin: auto auto auto auto;
 }
 
 #projectText{
-    color: white;
-    background-color: #131313;
+    height: auto;
+    background-color: none;
     margin: 0;
+    padding: 0 60px 60px 60px;
+}
+
+#overviewImageContainer{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+}
+
+#projectTextContainer{
+    height: 30%;
+    width: 100%;
 }
 
 /*--- Project List (Right Container)---*/

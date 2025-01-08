@@ -10,7 +10,7 @@ const AboutInfo = () => {
             <img id='profilePic' src={chanceImage} alt="Mark Gonzalez Avila." />
 
             <div id='summaryBox'>
-                <p id='summary'>
+                <p id='summary' className='aboutText'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

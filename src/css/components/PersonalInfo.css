@@ -27,17 +27,13 @@
     margin-left: 12vw;
 }
 
-p{
-    background-color: #131313;
-    padding: 60px;
-    color: white;
-    font-size: 0.9em;
-    box-shadow: 0 0 25px #131313;
-}
-
 #summary{
     width: 41vw;
 }
+
+.aboutText{
+    box-shadow: 0 0 25px #131313;
+} 
 
 /*--- Skills & Experience (Right Container)---*/
 
