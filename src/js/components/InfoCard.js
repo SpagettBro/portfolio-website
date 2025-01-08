@@ -1,8 +1,8 @@
 import '../../css/components/InfoCard.css';
 
 const InfoCard = ({GridPosition, Color}) => {
-    console.log("GridPosition: ", GridPosition);
-    console.log("Color: ", Color);
+    // console.log("GridPosition: ", GridPosition);
+    // console.log("Color: ", Color);
     return(
         <div className='infoTextContainer'>
             <h2 className={`infoTitle ${Color}`} >WELCOME</h2>

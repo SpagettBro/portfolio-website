@@ -6,9 +6,17 @@ import alienImage from '../../assets/images/MetroidVector.png'
 const Overview = () => {
     return(
         <div id='projectList'>
-            <img id='project1' className='listImage' src={astronautImage} alt="An astronaut." />
-            <img id='project2' className='listImage' src={chanceImage} alt="A dice shaped creature." />
-            <img id='project3' className='listImage' src={alienImage} alt="An alien." />
+            <div className='listImageContainer'>
+                <img id='project1' className='listImage' src={astronautImage} alt="An astronaut." />
+            </div>       
+            <div className='listImageContainer'>
+                <img id='project2' className='listImage' src={chanceImage} alt="A dice shaped creature." />
+            </div>  
+            <div className='listImageContainer'>
+                <img id='project3' className='listImage' src={alienImage} alt="An alien." />
+            </div>  
+            
+            
         </div>
     )
 }

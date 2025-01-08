@@ -1,5 +1,6 @@
 import '../../css/components/Overview.css';
 import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
+import {Link} from "react-router-dom";
 
 const Overview = () => {
     return(
@@ -14,8 +15,9 @@ const Overview = () => {
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
                     </p>
                 </div>
-            <h2 className='projectHeading' id='projectHeadingBottom'> -&gt; PROJECTVERSLAG</h2>
+                <Link to="/upendo"><h2 className='projectHeading' id='projectHeadingBottom'> -&gt; PROJECTVERSLAG</h2></Link>
+            
         </div>
-    )
+    ) 
 }
 export default Overview;

@@ -5,6 +5,12 @@ ion-icon {
 
 .arrows{
     width:20px;
+    transition: transform 0.1s;
+} 
+
+.arrows:hover{
+    transform: scale(1.20);
+    cursor: pointer;
 }
 
 #carousel{

@@ -16,8 +16,11 @@ a{
     justify-content: space-between;
     font-family: VCR;
     color: white;
-    top: 6vh;
+    top: 0;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     z-index: 10;
+    background-image: linear-gradient(#000000, rgba( 0, 0, 0, 0));
 }
 
 #leftNav{
