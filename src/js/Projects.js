@@ -2,33 +2,37 @@ import React, { useState } from "react";
 import '../css/Global.css';
 import OverviewInfo from './components/OverviewInfo';
 import OverviewList from './components/OverviewList';
-import astronautImage from '../assets/images/CSMAstronautWhiteStroke [Converted].png'
+import AIMImage from '../assets/svgs/AIM-Today-01.svg'
 import chanceImage from '../assets/images/ChancebulonF.png'
-import alienImage from '../assets/images/MetroidVector.png'
+import upendoImage from '../assets/svgs/Upendo.svg'
 
 function Projects() {
 
   const projects = [
     {
       id: 1,
-      heading: "CLIENT PROJECT: ASTRONAUT",
-      image: astronautImage,
+      heading: "CLIENT PROJECT: Upendo",
+      image: upendoImage,
+      height: '8vh',
+      text: "Discover the mysteries of the alien world. Lorem ipsum dolor sit amet...",
+      link: "/personalproject",
+      
+    },
+    {
+      id: 2,
+      heading: "CLIENT PROJECT: AIM-Today",
+      image: AIMImage,
+      height: '14vh',
       text: "Explore the universe with our astronaut project. Lorem ipsum dolor sit amet...",
       link: "/upendo",
     },
     {
-      id: 2,
+      id: 3,
       heading: "CLIENT PROJECT: CHANCEBULON",
       image: chanceImage,
+      height: '14vh',
       text: "Dive into the world of Chancebulon, a dice-shaped creature. Lorem ipsum dolor sit amet...",
       link: "/aim-today",
-    },
-    {
-      id: 3,
-      heading: "CLIENT PROJECT: METROID ALIEN",
-      image: alienImage,
-      text: "Discover the mysteries of the alien world. Lorem ipsum dolor sit amet...",
-      link: "/personalproject",
     },
   ];
 

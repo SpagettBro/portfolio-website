@@ -1,5 +1,4 @@
 import '../../css/components/Overview.css';
-import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
 import {Link} from "react-router-dom";
 
 const Overview = ({ project}) => {
