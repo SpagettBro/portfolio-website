@@ -13,7 +13,7 @@ const Overview = ({ projects, onSelect }) => {
                 id={`project${project.id}`}
                 className="listImage"
                 src={project.image}
-                style={{ height: project.height }}
+                style={{ height: project.listHeight }}
                 alt={project.heading}
               />
             </div>

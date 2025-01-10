@@ -8,7 +8,7 @@ const Overview = ({ project}) => {
             {project.heading}
           </h2>
             <div id='overviewImageContainer'>
-              <img id="overviewImage" src={project.image} alt={project.heading} />
+              <img id="overviewImage" src={project.image} style={{ height: project.overviewHeight }} alt={project.heading} />
             </div>
             <div id='projectTextContainer'>
               <p id="projectText">{project.text}</p>
