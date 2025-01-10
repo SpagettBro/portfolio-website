@@ -1,36 +1,59 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../../css/components/Carousel.css';
 import tvImage from '../../assets/images/CSMTVtemplate.png';
 import leftArrow from '../../assets/images/LeftArrow.png';
 import rightArrow from '../../assets/images/RightArrow.png';
-import chancebulonImage from '../../assets/images/ChancebulonF.png'
-import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
-import metroidImage from '../../assets/images/MetroidVector.png'
+import chancebulonImage from '../../assets/images/ChancebulonF.png';
+import aimTodayImage from '../../assets/svgs/AIM-Today-Black-01.svg';
+import upendoImage from '../../assets/svgs/Upendo.svg';
 
-// Image array
-const images = [
-  chancebulonImage,
-  astronautImage,
-  metroidImage, // Add more image paths here
+const projects = [
+  {
+    image: chancebulonImage,
+    link: '/upendo',
+    alt: 'Chancebulon Project',
+    width: '200px',
+    top: '16%',
+  },
+  {
+    image: upendoImage,
+    link: '/upendo',
+    alt: 'Upendo Project',
+    width: '175px',
+    top: '25%',
+  },
+  {
+    image: aimTodayImage,
+    link: '/upendo',
+    alt: 'AIM Today Project',
+    width: '300px',
+    top: '5%',
+  },
 ];
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex - 1 + projects.length) % projects.length);
   };
 
   return (
     <div id="carousel">
-      <img className="arrows" src={leftArrow} alt="left arrow" onClick={handlePrev}/>
-      <img id="tvImage" src={tvImage} alt="Blank tv screen template." />
+      <img className="arrows" src={leftArrow} alt="left arrow" onClick={handlePrev} />
+      
+      <img id="tvImage" src={tvImage} alt="Blank TV screen template." />
       <div id="whiteBackground"></div>
-      <img id="projectXImage" src={images[currentIndex]} alt={`Project image ${currentIndex + 1}`} />
+
+      <Link id="projectLink" to={projects[currentIndex].link} style={{ width: projects[currentIndex].width, top: projects[currentIndex].top }} >
+        <img id="projectXImage" src={projects[currentIndex].image} alt={`Project image ${currentIndex + 1}`} />
+      </Link>
+
       <img className="arrows" src={rightArrow} alt="right arrow" onClick={handleNext} />
     </div>
   );
