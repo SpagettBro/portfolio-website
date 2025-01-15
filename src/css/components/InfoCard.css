@@ -48,9 +48,21 @@
     background-color: rgba( 255, 221, 64, 0.2);
 }
 
-.blue{
-    color: #40FFC2;
-    border: solid #40FFC2 2px;
-    box-shadow: 0 0 30px rgba( 64, 255, 194, 0.3);
-    background-color: rgba( 64, 255, 194, 0.2);
+.purple{
+    color: #AB40FE;
+    border: solid #AB40FE 2px;
+    box-shadow: 0 0 30px rgba( 172, 64, 255, 0.3);
+    background-color: rgba( 172, 64, 255, 0.2);
+}
+
+#paragraphText a:link{
+    color: #FF8B40;
+}
+
+#paragraphText a:visited{
+    color: #FF8B40;
+}
+
+#paragraphText a:hover{
+    color: #FFAC40;
 }

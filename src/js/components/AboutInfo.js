@@ -11,11 +11,11 @@ const AboutInfo = () => {
 
             <div id='summaryBox'>
                 <p id='summary' className='aboutText'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Mijn naam is Mark Gonzalez Avila, ik ben 22 jaar en woon in Tilburg. Momenteel studeer ik ICT aan Fontys,
+                 waar ik me focus op front-end design en 3D-modellering. Mijn interesse in technologie begon tijdens mijn opleiding ITN in België,
+                  waar ik de basis van coderen leerde. Ik heb ervaring met verschillende tools en programmeertalen, waaronder Java, HTML, en Figma.
+                   Videogames inspireren mij, vooral door de gedetailleerde omgevingen en karaktermodellen. 
+                   In de toekomst wil ik mijn vaardigheden verder ontwikkelen in 3D-modellering en back-end programmering.
                 </p>
             </div>
         </div>

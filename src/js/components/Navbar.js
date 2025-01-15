@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <nav id ='navbar'>
             <div id='leftNav'>
-                <Link to="/"> Home </Link>
+                <Link to="/"> Mark Gonzalez Avila </Link>
             </div>
             <div id="rightNav">
                 <Link to="/projects"> Projects </Link>

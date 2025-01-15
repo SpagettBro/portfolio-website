@@ -10,10 +10,16 @@ const AboutSkills = () => {
             <h2 id='skillsHeading'>VAARDIGHEDEN</h2>
 
             <p id='skillsText' className='aboutText'>    
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Ervaring met:
+                <ul id='skillsText' className='aboutText'>
+                    <li>de talen Nederlands en Engels</li>
+                    <li>het programmeren in C++/C#/Java/JS/HTML</li>
+                    <li>SQL queries</li>
+                    <li>ontwerpen in Figma en XD</li>
+                    <li>het samenwerken volgens SCRUM</li>
+                    <li>de talen Nederlands en Engels</li>
+                    <li>de talen Nederlands en Engels</li>
+                </ul>
                 
             </p>
 

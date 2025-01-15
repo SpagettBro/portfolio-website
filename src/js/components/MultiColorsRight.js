@@ -6,8 +6,8 @@ const MultiColorsRight = () => {
         <div className='imageContainer'>
             <img id='alienImage' src={alienImage} alt="Drawing of a Metroid alien." />
             <div className='darkRectangle2'></div>
-            <div id='blueRectangle'></div>
-            <div id='orangeRectangle'></div>
+            <div id='yellowRectangle2'></div>
+            <div id='purpleRectangle2'></div>
             
         </div>
     )

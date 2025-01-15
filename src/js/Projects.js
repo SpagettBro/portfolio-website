@@ -15,9 +15,8 @@ function Projects() {
       image: upendoImage,
       overviewHeight: '20vh',
       listHeight: '8vh',
-      text: "Discover the mysteries of the alien world. Lorem ipsum dolor sit amet...",
+      text: "Het eerste client project voor 2ManyDots. In dit project ontwerp en programmeer ik samen in een groep een website op basis van een gekregen brand guide. Doorheen het project leer ik ook op een agile manier te werken doormiddel van de scrum methode.",
       link: "/personalproject",
-      
     },
     {
       id: 2,
@@ -25,7 +24,7 @@ function Projects() {
       image: AIMImage,
       overviewHeight: '40vh',
       listHeight: '14vh',
-      text: "Explore the universe with our astronaut project. Lorem ipsum dolor sit amet...",
+      text: "Het tweede client project voor 2ManyDots. Tijdens dit project leer ik om een nieuws website te ontwerpen en programmeren op basis van interviews met de doelgroep. Ook leer ik de inhoud van website te vullen door StoryBloks te implementeren.",
       link: "/upendo",
     },
     {
