@@ -1,8 +1,6 @@
-import '../../css/components/PersonalInfo.css';
+import '../../css/components/About.css';
 import linkedinIcon from '../../assets/svgs/linkedin.svg'
-import whatsappIcon from '../../assets/svgs/whatsapp.svg'
 import atIcon from '../../assets/svgs/at.svg'
-import instagramIcon from '../../assets/svgs/instagram.svg'
 
 const AboutSkills = () => {
     return(
@@ -25,9 +23,7 @@ const AboutSkills = () => {
 
             <div id='iconRow'>
                 <img className='icons' src={linkedinIcon} alt="linkedin icon" />
-                <img className='icons' src={whatsappIcon} alt="whatsapp icon" />
                 <img className='icons' src={atIcon} alt="email at icon" />
-                <img className='icons' src={instagramIcon} alt="instagram icon" />
             </div>
         </div>
     )

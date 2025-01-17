@@ -1,6 +1,6 @@
 import '../../css/components/InfoCards.css';
-import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
-import alienImage from '../../assets/images/MetroidVector.png'
+import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].webp'
+import alienImage from '../../assets/images/MetroidVector.webp'
 
 const InfoCards = () => {
     return(

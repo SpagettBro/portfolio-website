@@ -3,7 +3,7 @@ import '../css/Global.css';
 import OverviewInfo from './components/OverviewInfo';
 import OverviewList from './components/OverviewList';
 import AIMImage from '../assets/svgs/AIM-Today-01.svg'
-import chanceImage from '../assets/images/ChancebulonF.png'
+import chanceImage from '../assets/images/ChancebulonF.webp'
 import upendoImage from '../assets/svgs/Upendo.svg'
 
 function Projects() {

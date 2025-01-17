@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import '../../css/components/Carousel.css';
-import tvImage from '../../assets/images/CSMTVtemplate.png';
-import leftArrow from '../../assets/images/LeftArrow.png';
-import rightArrow from '../../assets/images/RightArrow.png';
-import chancebulonImage from '../../assets/images/ChancebulonF.png';
+import tvImage from '../../assets/images/CSMTVtemplate.webp';
+import leftArrow from '../../assets/images/LeftArrow.webp';
+import rightArrow from '../../assets/images/RightArrow.webp';
+import chancebulonImage from '../../assets/images/ChancebulonF.webp';
 import aimTodayImage from '../../assets/svgs/AIM-Today-Black-01.svg';
 import upendoImage from '../../assets/svgs/Upendo.svg';
 

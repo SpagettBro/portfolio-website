@@ -1,5 +1,5 @@
 import '../../css/components/ProjectImage.css';
-import upendoImage1 from '../../assets/images/ChancebulonRender0000.png'
+import upendoImage1 from '../../assets/images/ChancebulonRender0000.webp'
 
 const ProjectImage = () => {
     return(

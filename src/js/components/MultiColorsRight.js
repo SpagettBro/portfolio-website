@@ -1,5 +1,5 @@
 import '../../css/components/InfoCards.css';
-import alienImage from '../../assets/images/MetroidVector.png'
+import alienImage from '../../assets/images/MetroidVector.webp'
 
 const MultiColorsRight = () => {
     return(

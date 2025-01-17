@@ -1,5 +1,5 @@
 import '../../css/components/InfoCards.css';
-import astronautImage from '../../assets/images/CSMAstronautWhiteStroke [Converted].png'
+import astronautImage from '../../assets/images/CSMAstronautWhiteStroke-_Converted_.webp'
 
 const MultiColorsLeft = () => {
     return(

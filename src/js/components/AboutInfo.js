@@ -1,5 +1,5 @@
-import '../../css/components/PersonalInfo.css';
-import chanceImage from '../../assets/images/ChancebulonF.png'
+import '../../css/components/About.css';
+import chanceImage from '../../assets/images/ChancebulonF.webp'
 
 const AboutInfo = () => {
     return(
