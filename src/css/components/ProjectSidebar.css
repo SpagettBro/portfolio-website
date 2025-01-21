@@ -23,3 +23,15 @@
     z-index: 1;
 }
 
+#projectSidebar a:link{
+    color: #FF8B40;
+}
+
+#projectSidebar a:visited{
+    color: #FF8B40;
+}
+
+#projectSidebar a:hover{
+    color: #FFAC40;
+}
+

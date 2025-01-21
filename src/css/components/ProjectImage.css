@@ -1,4 +1,4 @@
-#projectImage{
+#projectImageContainer{
     display: flex;
     align-items: center;
     width: 100%;
@@ -10,6 +10,7 @@
 
 
 
-#upendoImage1{
+#projectImage{
+    height: 80%;
     width:100%;
 }

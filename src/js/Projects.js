@@ -16,7 +16,7 @@ function Projects() {
       overviewHeight: '20vh',
       listHeight: '8vh',
       text: "Het eerste client project voor 2ManyDots. In dit project ontwerp en programmeer ik samen in een groep een website op basis van een gekregen brand guide. Doorheen het project leer ik ook op een agile manier te werken doormiddel van de scrum methode.",
-      link: "/personalproject",
+      link: "/upendo",
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ function Projects() {
       overviewHeight: '40vh',
       listHeight: '14vh',
       text: "Het tweede client project voor 2ManyDots. Tijdens dit project leer ik om een nieuws website te ontwerpen en programmeren op basis van interviews met de doelgroep. Ook leer ik de inhoud van website te vullen door StoryBloks te implementeren.",
-      link: "/upendo",
+      link: "/aim-today",
     },
     {
       id: 3,
@@ -33,8 +33,8 @@ function Projects() {
       image: chanceImage,
       overviewHeight: '35vh',
       listHeight: '14vh',
-      text: "Dive into the world of Chancebulon, a dice-shaped creature. Lorem ipsum dolor sit amet...",
-      link: "/aim-today",
+      text: "Het persoonlijke project van semester 2 a.k.a. Project X. In dit project ging ik te werk in Cinema4D om een animatie te creëren geïnspireerd door 1 van mijn favoriete games.",
+      link: "/chancebulon",
     },
   ];
 

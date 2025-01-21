@@ -1,10 +1,11 @@
 import '../../css/components/ProjectImage.css';
 import upendoImage1 from '../../assets/images/ChancebulonRender0000.webp'
 
-const ProjectImage = () => {
+const ProjectImage = ({projectImage}) => {
+
     return(
-        <div id='projectImage'>
-            <img id='upendoImage1' src = {upendoImage1} alt='Upendo' />
+        <div id='projectImageContainer'>
+            <img id='projectImage' src = {projectImage} alt='Upendo' />
         </div>
     )
 }
