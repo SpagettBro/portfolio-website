@@ -1,13 +1,13 @@
 import '../css/Global.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar.jsx';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Home from './Home.js';
+import Home from './Home.jsx';
 import Projects from './Projects.jsx';
-import About from './About.js';
-import Upendo from './Upendo.js';
-import Chancebulon from './Chancebulon.js';
-import AIM from './AIM.js';
-import PersonalProject from './PersonalProject.js';
+import About from './About.jsx';
+import Upendo from './Upendo.jsx';
+import Chancebulon from './Chancebulon.jsx';
+import AIM from './AIM.jsx';
+import PersonalProject from './PersonalProject.jsx';
 
 function App() {
   return ( 
