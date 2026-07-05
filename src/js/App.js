@@ -2,7 +2,7 @@ import '../css/Global.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './Home.js';
-import Projects from './Projects.js';
+import Projects from './Projects.jsx';
 import About from './About.js';
 import Upendo from './Upendo.js';
 import Chancebulon from './Chancebulon.js';
